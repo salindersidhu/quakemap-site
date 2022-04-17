@@ -2,32 +2,30 @@ import Head from "next/head";
 
 import {
   ContactSection,
-  FeatureSection,
+  FaqSection,
   FooterSection,
   HeaderSection,
-  HeroSection,
 } from "../components";
 import {
-  Features,
+  Faqs,
   FooterNavigation,
   FooterSocials,
   HeaderNavigation,
   Links,
 } from "../data";
 
-function Home() {
+function FAQ() {
   return (
     <>
       <Head>
-        <title>Quakemap</title>
+        <title>Quakemap &#8211; FAQ</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
-      <HeroSection downloadLink={Links.download} />
-      <FeatureSection downloadLink={Links.download} features={Features} />
+      <FaqSection faqs={Faqs} />
       <ContactSection mailLink={Links.mail} />
       <FooterSection navigation={FooterNavigation} socials={FooterSocials} />
     </>
   );
 }
 
-export default Home;
+export default FAQ;
