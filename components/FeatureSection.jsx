@@ -1,5 +1,7 @@
 import PropTypes from "prop-types";
 
+import { prefix } from "../prefix";
+
 function FeatureSection({ downloadLink, features }) {
   return (
     <div className="relative pt-16 pb-32 overflow-hidden">
@@ -51,7 +53,7 @@ function FeatureSection({ downloadLink, features }) {
                   className={`w-full lg:absolute lg:h-full lg:w-auto lg:max-w-none ${
                     index % 2 === 1 ? "lg:right-0 " : "lg:left-0 "
                   }`}
-                  src={feature.image}
+                  src={prefix + feature.image}
                   alt={feature.alt}
                 />
               </div>

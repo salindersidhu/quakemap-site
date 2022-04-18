@@ -4,8 +4,8 @@
   "homepage": "https://salindersidhu.github.io/quakemap",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d out",
+    "predeploy": "npm run build  && touch ./out/.nojekyll",
+    "deploy": "gh-pages -d out -t true",
     "dev": "next dev",
     "build": "next build && next export",
     "start": "next start"

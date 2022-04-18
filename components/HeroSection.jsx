@@ -1,4 +1,7 @@
+import Link from "next/link";
 import PropTypes from "prop-types";
+
+import { prefix } from "../prefix";
 
 function HeroSection({ downloadLink }) {
   return (
@@ -15,12 +18,14 @@ function HeroSection({ downloadLink }) {
           </p>
           <div className="mt-10 sm:mt-12">
             <div className="grid grid-cols-3">
-              <a href={downloadLink} target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/badge_google_play.png"
-                  alt="Get it on Google Play."
-                />
-              </a>
+              <Link href={downloadLink}>
+                <a target="_blank" rel="noopener noreferrer">
+                  <img
+                    src={`${prefix}/assets/badge_google_play.png`}
+                    alt="Get it on Google Play."
+                  />
+                </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -28,7 +33,7 @@ function HeroSection({ downloadLink }) {
           <div className="lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 sm:pl-6">
             <img
               className="w-full xl:absolute xl:h-full xl:w-auto xl:max-w-none xl:left-0"
-              src="/assets/app_banner.png"
+              src={`${prefix}/assets/app_banner.png`}
               alt=""
             />
           </div>
