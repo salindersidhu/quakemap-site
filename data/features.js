@@ -18,7 +18,7 @@ const Features = [
     title: "View earthquake info",
     alt: "",
     description:
-      "Highly accurate earthquake information available at your fingertips. The Earthquake information presented includes earthquake properties such as Magnitude or Depth and event details such as Felt Reports or Alert Level.",
+      "Accurate earthquake information available at your fingertips. The Earthquake information presented includes earthquake properties such as Magnitude or Depth and event details such as Felt Reports or Alert Level.",
     image: "/assets/app_details.png",
     icon: SparklesIcon,
   },

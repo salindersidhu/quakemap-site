@@ -1,7 +1,7 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
 
-import { prefix } from "../prefix";
+import { prefix } from "../scripts/prefix";
 
 function HeroSection({ downloadLink }) {
   return (
@@ -13,7 +13,7 @@ function HeroSection({ downloadLink }) {
           </h1>
           <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
             A free realtime global earthquake tracker. View the latest
-            earthquakes around the world directly on your smartphone. Avaliable
+            earthquakes around the world directly on your smartphone. Available
             for Android on the Google Play store.
           </p>
           <div className="mt-10 sm:mt-12">

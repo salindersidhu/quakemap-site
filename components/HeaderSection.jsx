@@ -4,7 +4,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import { prefix } from "../prefix";
+import { prefix } from "../scripts/prefix";
 
 function HeaderSection({ navigation }) {
   return (

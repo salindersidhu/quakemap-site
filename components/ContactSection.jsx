@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-import { prefix } from "../prefix";
+import { prefix } from "../scripts/prefix";
 
 function ContactSection({ mailLink }) {
   return (
