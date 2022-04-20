@@ -204,7 +204,7 @@ function Terms() {
             <p>
               If you have any questions or suggestions about this End-User
               License Agreement, do not hesitate to contact us at{" "}
-              <strong>support.quakemap@gmail.com</strong>.
+              <strong>quakemap.app@gmail.com</strong>.
             </p>
           </div>
         </div>

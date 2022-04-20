@@ -15,7 +15,7 @@ const Faqs = [
     id: 3,
     question: "I have a problem, how do I contact support?",
     answer:
-      "Please get in touch with us at <strong>support.quakemap@gmail.com.</strong> We will respond to your inquiry within a few business days.",
+      "Please get in touch with us at <strong>quakemap.app@gmail.com.</strong> We will respond to your inquiry within a few business days.",
   },
 ];
 
