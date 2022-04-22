@@ -8,11 +8,11 @@ import {
   Links,
 } from "../data";
 
-function Terms() {
+function EULA() {
   return (
     <>
       <Head>
-        <title>Quakemap &#8211; Terms</title>
+        <title>Quakemap &#8211; End-User License Agreement</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <div className="relative py-16 bg-white overflow-hidden">
@@ -215,4 +215,4 @@ function Terms() {
   );
 }
 
-export default Terms;
+export default EULA;

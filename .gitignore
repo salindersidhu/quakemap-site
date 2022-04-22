@@ -38,3 +38,6 @@ yarn-error.log*
 
 # VS Code
 .vscode
+
+nextImageExportOptimizer/
+next-image-export-optimizer-hashes.json

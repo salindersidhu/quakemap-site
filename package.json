@@ -7,7 +7,7 @@
     "predeploy": "npm run build  && touch ./out/.nojekyll",
     "deploy": "gh-pages -d out -t true",
     "dev": "next dev",
-    "build": "next build && next export && npm run robots && npm run sitemap",
+    "build": "next build && next export && next-image-export-optimizer && npm run robots && npm run sitemap",
     "start": "next start",
     "robots": "node ./scripts/gen-robots.js",
     "sitemap": "node ./scripts/gen-sitemap.js"
@@ -16,7 +16,8 @@
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.6",
     "@tailwindcss/typography": "^0.5.2",
-    "next": "12.1.5",
+    "next": "^12.1.4",
+    "next-image-export-optimizer": "^0.9.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },

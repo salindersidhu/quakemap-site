@@ -1,7 +1,6 @@
 import Link from "next/link";
 import PropTypes from "prop-types";
-
-import { prefix } from "../scripts/prefix";
+import ExportedImage from "next-image-export-optimizer";
 
 function HeroSection({ downloadLink }) {
   return (
@@ -20,9 +19,13 @@ function HeroSection({ downloadLink }) {
             <div className="grid grid-cols-3">
               <Link href={downloadLink}>
                 <a target="_blank" rel="noopener noreferrer">
-                  <img
-                    src={`${prefix}/assets/badge_google_play.png`}
+                  <ExportedImage
+                    src="images/badge_google_play.png"
                     alt="Get it on Google Play."
+                    width={564}
+                    height={168}
+                    layout="responsive"
+                    objectFit="cover"
                   />
                 </a>
               </Link>
@@ -31,10 +34,14 @@ function HeroSection({ downloadLink }) {
         </div>
         <div className="mt-12 sm:mt-16 lg:mt-0">
           <div className="lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 sm:pl-6">
-            <img
-              className="w-full xl:absolute xl:h-full xl:w-auto xl:max-w-none xl:left-0"
-              src={`${prefix}/assets/app_banner.png`}
+            <ExportedImage
+              src="images/app_banner.png"
               alt=""
+              className="w-full xl:absolute xl:h-full xl:w-auto xl:max-w-none xl:left-0"
+              width={1459}
+              height={1800}
+              layout="responsive"
+              objectFit="cover"
             />
           </div>
         </div>

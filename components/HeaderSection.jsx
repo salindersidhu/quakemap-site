@@ -4,8 +4,6 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 
-import { prefix } from "../scripts/prefix";
-
 function HeaderSection({ navigation }) {
   return (
     <Popover as="header" className="relative">
@@ -20,9 +18,9 @@ function HeaderSection({ navigation }) {
                 <a>
                   <span className="sr-only">Quakemap</span>
                   <img
-                    className="h-8 w-auto sm:h-10"
-                    src={`${prefix}/assets/logo_white.svg`}
+                    src="images/logo_white.svg"
                     alt=""
+                    className="h-8 w-auto sm:h-10"
                   />
                 </a>
               </Link>
@@ -65,9 +63,9 @@ function HeaderSection({ navigation }) {
             <div className="px-5 pt-4 flex items-center justify-between">
               <div>
                 <img
-                  className="h-8 w-auto"
-                  src={`${prefix}/assets/logo_black.svg`}
+                  src="images/logo_black.svg"
                   alt=""
+                  className="h-8 w-auto"
                 />
               </div>
               <div className="-mr-2">

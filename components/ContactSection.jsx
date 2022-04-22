@@ -1,15 +1,16 @@
 import PropTypes from "prop-types";
-
-import { prefix } from "../scripts/prefix";
+import ExportedImage from "next-image-export-optimizer";
 
 function ContactSection({ mailLink }) {
   return (
     <div className="relative bg-gray-900">
       <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <img
-          className="w-full h-full object-cover"
-          src={`${prefix}/assets/contact_us.png`}
+        <ExportedImage
+          src="images/contact_us.png"
           alt=""
+          layout="fill"
+          objectFit="cover"
+          className="w-full h-full object-cover"
         />
         <div
           aria-hidden="true"

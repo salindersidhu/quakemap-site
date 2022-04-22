@@ -1,6 +1,5 @@
 import PropTypes from "prop-types";
-
-import { prefix } from "../scripts/prefix";
+import ExportedImage from "next-image-export-optimizer";
 
 function FeatureSection({ downloadLink, features }) {
   return (
@@ -49,12 +48,13 @@ function FeatureSection({ downloadLink, features }) {
               }`}
             >
               <div className="lg:px-0 lg:m-0 lg:relative lg:h-full">
-                <img
-                  className={`w-full lg:absolute lg:h-full lg:w-auto lg:max-w-none ${
-                    index % 2 === 1 ? "lg:right-0 " : "lg:left-0 "
-                  }`}
-                  src={prefix + feature.image}
+                <ExportedImage
+                  src={`images/${feature.image}`}
                   alt={feature.alt}
+                  width={2600}
+                  height={3178}
+                  layout="responsive"
+                  objectFit="cover"
                 />
               </div>
             </div>
