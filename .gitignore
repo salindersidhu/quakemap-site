@@ -34,7 +34,8 @@ yarn-error.log*
 .vercel
 
 # Env
-.env.*
+.env.production
+.env.development
 
 # VS Code
 .vscode
