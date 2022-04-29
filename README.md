@@ -4,7 +4,7 @@
 
 ## Overview
 
-The offical [Landing Page](https://salindersidhu.github.io/quakemap/) for Quakemap, a realtime global earthquake tracker and information app. Built using React and other open source technologies.
+The offical landing page for [Quakemap](https://salindersidhu.github.io/quakemap/). Built using React and other open source technologies.
 
 <p float="left">
     <img src="https://miro.medium.com/max/400/1*mrOXGyIa3BlPK80peLmEbA.png" height="150" width="150">
@@ -55,7 +55,7 @@ npm run dev
 2. Create and deploy to production.
 
 ```bash
-npm run build
+npm run deploy
 ```
 
 3. The production site is deployed to [https://salindersidhu.github.io/quakemap](https://salindersidhu.github.io/quakemap/).

@@ -50,7 +50,7 @@ function FeatureSection({ downloadLink, features }) {
               <div className="lg:px-0 lg:m-0 lg:relative lg:h-full">
                 <ExportedImage
                   src={`images/${feature.image}`}
-                  alt={feature.alt}
+                  role="presentation"
                   width={2600}
                   height={3178}
                   layout="responsive"

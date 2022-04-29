@@ -19,7 +19,7 @@ function HeaderSection({ navigation }) {
                   <span className="sr-only">Quakemap</span>
                   <img
                     src="images/logo_white.svg"
-                    alt=""
+                    role="presentation"
                     className="h-8 w-auto sm:h-10"
                   />
                 </a>

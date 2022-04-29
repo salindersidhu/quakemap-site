@@ -34,7 +34,7 @@ function FooterSection({ navigation, socials }) {
             </Link>
           ))}
         </div>
-        <p className="mt-8 text-center text-base text-gray-400">
+        <p className="mt-8 text-center text-base text-gray-500">
           &copy; {new Date().getFullYear()} Salinder Sidhu. All rights reserved.{" "}
         </p>
       </div>

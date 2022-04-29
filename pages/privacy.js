@@ -42,8 +42,8 @@ function Privacy() {
             </p>
             <p>
               The terms used in this Privacy Policy have the same meanings as in
-              our Terms and Conditions, which are accessible at Quakemap unless
-              otherwise defined in this Privacy Policy.
+              our End-User License Agreement, which are accessible at Quakemap
+              unless otherwise defined in this Privacy Policy.
             </p>
             <h2>Information Collection and Use</h2>
             <p>

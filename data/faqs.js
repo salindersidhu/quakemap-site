@@ -3,7 +3,7 @@ const Faqs = [
     id: 1,
     question: "Is Quakemap free?",
     answer:
-      "Quakemap is free to use and does not require registration or a subscription. In order to keep the app free, we do display Google Ads in the form a banner.",
+      "Quakemap is free to use and does not require registration or a subscription. In order to keep the app free, we display Google Ads in the form a banner.",
   },
   {
     id: 2,
