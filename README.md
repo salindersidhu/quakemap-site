@@ -29,6 +29,15 @@ The offical landing page for [Quakemap](https://quakemaps.herokuapp.com/). Built
 npm install
 ```
 
+2. Copy the environment variable files for test, production and development:
+
+```bash
+cp .env.example .env.production
+cp .env.example .env.development
+```
+
+3. Update the variable `SITE_URL` in `.env.*` files.
+
 ## Running
 
 1. Run the development server:
@@ -41,13 +50,11 @@ npm run dev
 
 ## Production Build
 
-1. Create and deploy to production.
+1. Update the environment variables in `.env.production`.
 
-```bash
-npm run deploy
-```
+2. Create and merge a Pull Request into the main branch.
 
-2. The production site is deployed to [https://quakemaps.herokuapp.com/](https://quakemaps.herokuapp.com/).
+3. The production site is automatically deployed to [https://quakemaps.herokuapp.com/](https://quakemaps.herokuapp.com/).
 
 ## Project Structure
 
@@ -67,12 +74,9 @@ npm run deploy
     ├── public
     │    ├── images                 # Site images
     │    │   └── ...
+    │    ├── app-ads.txt            # AdMob advertisement config
     │    ├── banner.png             # Site SEO banner
     │    ├── favicon.ico            # Site favicon
-    │    └── ...
-    ├── scripts                     # Build scripts
-    │    ├── gen-robots.js          # Script to generate robots.txt
-    │    ├── gen-sitemap.js         # Script to generate sitemap.txt
     │    └── ...
     ├── styles                      # Site Styles
     │    ├── globals.css            # Global styles
