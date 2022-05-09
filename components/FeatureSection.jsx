@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import ExportedImage from "next-image-export-optimizer";
+import Image from "next/image";
 
 function FeatureSection({ downloadLink, features }) {
   return (
@@ -48,9 +48,9 @@ function FeatureSection({ downloadLink, features }) {
               }`}
             >
               <div className="lg:px-0 lg:m-0 lg:relative lg:h-full">
-                <ExportedImage
-                  src={`images/${feature.image}`}
-                  role="presentation"
+                <Image
+                  src={`/images/${feature.image}`}
+                  alt=""
                   width={2600}
                   height={3178}
                   layout="responsive"

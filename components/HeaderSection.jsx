@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
 import { Fragment } from "react";
@@ -17,10 +18,12 @@ function HeaderSection({ navigation }) {
               <Link href="/">
                 <a>
                   <span className="sr-only">Quakemap</span>
-                  <img
-                    src="images/logo_white.svg"
-                    role="presentation"
+                  <Image
+                    src="/images/logo_white.svg"
+                    alt=""
                     className="h-8 w-auto sm:h-10"
+                    height={40}
+                    width={40}
                   />
                 </a>
               </Link>
@@ -32,8 +35,8 @@ function HeaderSection({ navigation }) {
               </div>
             </div>
             <div className="hidden space-x-8 md:flex md:ml-10">
-              {navigation.map((item) => (
-                <Link href={item.href}>
+              {navigation.map((item, index) => (
+                <Link key={`${item.name}-${index}`} href={item.href}>
                   <a
                     key={item.name}
                     className="text-base font-medium text-white hover:text-gray-300"
@@ -62,10 +65,12 @@ function HeaderSection({ navigation }) {
           <div className="rounded-lg shadow-md bg-white ring-1 ring-black ring-opacity-5 overflow-hidden">
             <div className="px-5 pt-4 flex items-center justify-between">
               <div>
-                <img
-                  src="images/logo_black.svg"
+                <Image
+                  src="/images/logo_black.svg"
                   alt=""
                   className="h-8 w-auto"
+                  height={32}
+                  width={32}
                 />
               </div>
               <div className="-mr-2">
@@ -77,8 +82,8 @@ function HeaderSection({ navigation }) {
             </div>
             <div className="pt-5 pb-6">
               <div className="px-2 space-y-1">
-                {navigation.map((item) => (
-                  <Link href={item.href}>
+                {navigation.map((item, index) => (
+                  <Link key={`${item.name}-${index}`} href={item.href}>
                     <a
                       key={item.name}
                       className="block px-3 py-2 rounded-md text-base font-medium text-gray-900 hover:bg-gray-50"

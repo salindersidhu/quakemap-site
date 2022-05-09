@@ -4,7 +4,7 @@
 
 ## Overview
 
-The offical landing page for [Quakemap](https://salindersidhu.github.io/quakemap/). Built using React and other open source technologies.
+The offical landing page for [Quakemap](https://quakemaps.herokuapp.com/). Built using React and other open source technologies.
 
 <p float="left">
     <img src="https://miro.medium.com/max/400/1*mrOXGyIa3BlPK80peLmEbA.png" height="150" width="150">
@@ -29,15 +29,6 @@ The offical landing page for [Quakemap](https://salindersidhu.github.io/quakemap
 npm install
 ```
 
-2. Copy the environment variable files for test, production and development:
-
-```bash
-cp .env.example .env.production
-cp .env.example .env.development
-```
-
-3. Update the variable `NEXT_PUBLIC_BASE_PATH` in `.env.*` files.
-
 ## Running
 
 1. Run the development server:
@@ -50,15 +41,13 @@ npm run dev
 
 ## Production Build
 
-1. Update the environment variables in `.env.production`.
-
-2. Create and deploy to production.
+1. Create and deploy to production.
 
 ```bash
 npm run deploy
 ```
 
-3. The production site is deployed to [https://salindersidhu.github.io/quakemap](https://salindersidhu.github.io/quakemap/).
+2. The production site is deployed to [https://quakemaps.herokuapp.com/](https://quakemaps.herokuapp.com/).
 
 ## Project Structure
 

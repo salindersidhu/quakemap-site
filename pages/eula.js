@@ -24,14 +24,14 @@ function EULA() {
           </div>
           <div className="mt-6 prose prose-indigo prose-lg text-gray-500 mx-auto">
             <p>
-              This End-User License Agreement ("EULA") is a legal agreement
-              between you and Quakemap;
+              This End-User License Agreement (&quot;EULA&quot;) is a legal
+              agreement between you and Quakemap;
             </p>
             <p>
               This EULA agreement governs your acquisition and use of our
-              Quakemap software ("Software") directly from Quakemap or
+              Quakemap software (&quot;Software&quot;) directly from Quakemap or
               indirectly through a Quakemap authorized reseller or distributor
-              (a "Reseller").
+              (a &quot;Reseller&quot;).
             </p>
             <p>
               Please read this EULA agreement carefully before completing the
@@ -41,10 +41,10 @@ function EULA() {
             </p>
             <p>
               If you register for a free trial of the Quakemap software, this
-              EULA agreement will also govern that trial. By clicking "accept"
-              or installing and/or using the Quakemap software, you are
-              confirming your acceptance of the Software and agreeing to become
-              bound by the terms of this EULA agreement.
+              EULA agreement will also govern that trial. By clicking
+              &quot;accept&quot; or installing and/or using the Quakemap
+              software, you are confirming your acceptance of the Software and
+              agreeing to become bound by the terms of this EULA agreement.
             </p>
             <p>
               If you are entering into this EULA agreement on behalf of a
@@ -132,16 +132,16 @@ function EULA() {
             <p>
               You expressly understand and agree that the Quakemap software, the
               Quakemap software content and third party content are provided on
-              an "As Is" and "As available" basis without any representation,
-              warranty or Condition of any kind whatsoever, either express or
-              implied, statutory Or otherwise, including but not limited to, the
-              implied representation, Warranties or conditions of
-              merchantability, accuracy, fitness for use, Quiet enjoyment, or
-              non-infringement. The Quakemap software may include Inaccuracies
-              or typographical errors we make, and there are no Representations,
-              warranties or conditions regarding the Quakemap Software, the
-              Quakemap software content or the third party content made
-              Available through the Quakemap software, and we specifically
+              an &quot;As Is&quot; and &quot;As available&quot; basis without
+              any representation, warranty or Condition of any kind whatsoever,
+              either express or implied, statutory Or otherwise, including but
+              not limited to, the implied representation, Warranties or
+              conditions of merchantability, accuracy, fitness for use, Quiet
+              enjoyment, or non-infringement. The Quakemap software may include
+              Inaccuracies or typographical errors we make, and there are no
+              Representations, warranties or conditions regarding the Quakemap
+              Software, the Quakemap software content or the third party content
+              made Available through the Quakemap software, and we specifically
               disclaim Any representation, warranty or condition as to the
               suitability, Reliability, timeliness or accuracy of the Quakemap
               software content or The third party content made available through

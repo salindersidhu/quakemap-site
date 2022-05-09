@@ -1,12 +1,12 @@
 import PropTypes from "prop-types";
-import ExportedImage from "next-image-export-optimizer";
+import Image from "next/image";
 
 function ContactSection({ mailLink }) {
   return (
     <div className="relative bg-gray-900">
       <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
-        <ExportedImage
-          src="images/contact_us.png"
+        <Image
+          src="/images/contact_us.png"
           alt=""
           layout="fill"
           objectFit="cover"
@@ -23,12 +23,12 @@ function ContactSection({ mailLink }) {
             General support
           </h2>
           <p className="mt-2 text-white text-3xl font-extrabold tracking-tight sm:text-4xl">
-            We're here to help
+            We&apos;re here to help
           </p>
           <p className="mt-3 text-lg text-gray-300">
             Have a question about the app? Found a bug? Have a suggestion for a
-            feature? Let's start a conversation. We typically respond within a
-            few business days.
+            feature? Let&apos;s start a conversation. We typically respond
+            within a few business days.
           </p>
           <div className="mt-8">
             <div className="inline-flex rounded-md shadow">
