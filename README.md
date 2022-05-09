@@ -4,7 +4,7 @@
 
 ## Overview
 
-The offical landing page for [Quakemap](https://salindersidhu.github.io/quakemap/). Built using React and other open source technologies.
+The offical landing page for [Quakemap](https://quakemaps.herokuapp.com/). Built using React and other open source technologies.
 
 <p float="left">
     <img src="https://miro.medium.com/max/400/1*mrOXGyIa3BlPK80peLmEbA.png" height="150" width="150">
@@ -36,7 +36,7 @@ cp .env.example .env.production
 cp .env.example .env.development
 ```
 
-3. Update the variable `NEXT_PUBLIC_BASE_PATH` in `.env.*` files.
+3. Update the variable `SITE_URL` in `.env.*` files.
 
 ## Running
 
@@ -52,13 +52,9 @@ npm run dev
 
 1. Update the environment variables in `.env.production`.
 
-2. Create and deploy to production.
+2. Create and merge a Pull Request into the main branch.
 
-```bash
-npm run deploy
-```
-
-3. The production site is deployed to [https://salindersidhu.github.io/quakemap](https://salindersidhu.github.io/quakemap/).
+3. The production site is automatically deployed to [https://quakemaps.herokuapp.com/](https://quakemaps.herokuapp.com/).
 
 ## Project Structure
 
@@ -78,12 +74,9 @@ npm run deploy
     ├── public
     │    ├── images                 # Site images
     │    │   └── ...
+    │    ├── app-ads.txt            # AdMob advertisement config
     │    ├── banner.png             # Site SEO banner
     │    ├── favicon.ico            # Site favicon
-    │    └── ...
-    ├── scripts                     # Build scripts
-    │    ├── gen-robots.js          # Script to generate robots.txt
-    │    ├── gen-sitemap.js         # Script to generate sitemap.txt
     │    └── ...
     ├── styles                      # Site Styles
     │    ├── globals.css            # Global styles

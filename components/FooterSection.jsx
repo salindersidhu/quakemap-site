@@ -20,8 +20,8 @@ function FooterSection({ navigation, socials }) {
           ))}
         </nav>
         <div className="mt-8 flex justify-center space-x-6">
-          {socials.map((item) => (
-            <Link href={item.href}>
+          {socials.map((item, index) => (
+            <Link key={`${item.name}-${index}`} href={item.href}>
               <a
                 key={item.name}
                 target="_blank"

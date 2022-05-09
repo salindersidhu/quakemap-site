@@ -9,6 +9,11 @@ function Document() {
           name="description"
           content="Track earthquakes around the world in realtime from the comfort of your smartphone."
         />
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3390997692682924"
+          crossOrigin="anonymous"
+        ></script>
         <meta name="og:site_name" content="Quakemap" />
         <meta name="og:type" content="website" />
         <meta
