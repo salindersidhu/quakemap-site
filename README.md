@@ -4,7 +4,7 @@
 
 ## Overview
 
-The offical landing page for [Quakemap](https://quakemaps.herokuapp.com/). Built using React and other open source technologies.
+The offical landing page for [Quakemap](https://quakemap.vercel.app/). Built using React and other open source technologies.
 
 <p float="left">
     <img src="https://miro.medium.com/max/400/1*mrOXGyIa3BlPK80peLmEbA.png" height="150" width="150">
@@ -54,7 +54,7 @@ npm run dev
 
 2. Create and merge a Pull Request into the main branch.
 
-3. The production site is automatically deployed to [https://quakemaps.herokuapp.com/](https://quakemaps.herokuapp.com/).
+3. The production site is automatically deployed to [https://quakemap.vercel.app/](https://quakemap.vercel.app/).
 
 ## Project Structure
 

@@ -4,22 +4,22 @@ const Sitemap = () => {};
 
 export const getServerSideProps = ({ res }) => {
   const staticPages = fs
-    .readdirSync("pages")
+    .readdirSync(
+      {
+        development: "pages",
+        production: "./",
+      }[process.env.NODE_ENV]
+    )
     .filter((staticPage) => {
       return ![
         "_app.js",
         "_document.js",
-        "404.js",
-        "index.js",
+        "_error.js",
         "sitemap.xml.js",
-        "robots.txt.js",
       ].includes(staticPage);
     })
     .map((staticPagePath) => {
-      return `${process.env.SITE_URL}/${staticPagePath.replace(
-        /\.[^/.]+$/,
-        ""
-      )}`;
+      return `${baseUrl}/${staticPagePath}`;
     });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
