@@ -14,12 +14,14 @@ export const getServerSideProps = ({ res }) => {
       return ![
         "_app.js",
         "_document.js",
-        "_error.js",
+        "404.js",
+        "index.js",
         "sitemap.xml.js",
+        "robots.txt.js",
       ].includes(staticPage);
     })
     .map((staticPagePath) => {
-      return `${baseUrl}/${staticPagePath}`;
+      return `${process.env.SITE_URL}/${staticPagePath}`;
     });
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
