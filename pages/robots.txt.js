@@ -5,7 +5,7 @@ class Robots extends Component {
     res.setHeader("Content-Type", "text/plain");
     res.write(`User-agent: *
 Disallow:
-Sitemap: ${process.env.SITE_URL}`);
+Sitemap: ${process.env.SITE_URL}/sitemap.xml`);
     res.end();
   }
 }

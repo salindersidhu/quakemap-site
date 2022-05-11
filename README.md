@@ -4,7 +4,7 @@
 
 ## Overview
 
-The offical landing page for [Quakemap](https://quakemap.vercel.app/). Built using React and other open source technologies.
+The offical landing page for [Quakemap](https://play.google.com/store/apps/details?id=com.sal.quakemap). Built using React and other open source technologies.
 
 <p float="left">
     <img src="https://miro.medium.com/max/400/1*mrOXGyIa3BlPK80peLmEbA.png" height="150" width="150">
@@ -15,11 +15,10 @@ The offical landing page for [Quakemap](https://quakemap.vercel.app/). Built usi
 
 ## Prerequisite Software
 
-| Software       | Version   |
-| :------------- | :-------- |
-| Git            | 2.20.1+   |
-| Node           | 10.15.0+  |
-| Android Studio | 2020.3.1+ |
+| Software | Version  |
+| :------- | :------- |
+| Git      | 2.20.1+  |
+| Node     | 10.15.0+ |
 
 ## Getting Started
 
