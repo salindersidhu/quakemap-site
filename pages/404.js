@@ -13,7 +13,7 @@ function NotFound() {
   return (
     <>
       <Head>
-        <title>Quakemap &#8211; 404 | Page Not Found</title>
+        <title>404 &#8211; Quakemap | Realtime Earthquakes</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <div className="bg-white min-h-full px-4 py-16 sm:px-6 sm:py-24 md:grid md:place-items-center lg:px-8">

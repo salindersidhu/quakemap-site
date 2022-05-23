@@ -12,7 +12,7 @@ function Privacy() {
   return (
     <>
       <Head>
-        <title>Quakemap &#8211; Privacy</title>
+        <title>Privacy Policy &#8211; Quakemap | Realtime Earthquakes</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <div className="relative py-16 bg-white overflow-hidden">

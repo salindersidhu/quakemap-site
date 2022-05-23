@@ -19,7 +19,7 @@ function Home() {
   return (
     <>
       <Head>
-        <title>Quakemap</title>
+        <title>Quakemap | Realtime Earthquakes</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <HeroSection downloadLink={Links.download} />
