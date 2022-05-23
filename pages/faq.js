@@ -18,7 +18,7 @@ function FAQ() {
   return (
     <>
       <Head>
-        <title>Quakemap &#8211; FAQ</title>
+        <title>FAQ &#8211; Quakemap | Realtime Earthquakes</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <FaqSection faqs={Faqs} />

@@ -12,7 +12,7 @@ function EULA() {
   return (
     <>
       <Head>
-        <title>Quakemap &#8211; End-User License Agreement</title>
+        <title>EULA &#8211; Quakemap | Realtime Earthquakes</title>
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <div className="relative py-16 bg-white overflow-hidden">
