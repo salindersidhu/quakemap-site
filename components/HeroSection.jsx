@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import PropTypes from "prop-types";
-import Image from "next/image";
 
 function HeroSection({ downloadLink }) {
   return (
@@ -11,9 +11,12 @@ function HeroSection({ downloadLink }) {
             <span className="pb-3 block sm:pb-5">Quakemap</span>
           </h1>
           <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-            A free realtime global earthquake tracker. View the latest
-            earthquakes around the world directly on your smartphone. Available
-            for Android on the Google Play store.
+            A free realtime global earthquake tracker. Download and view the
+            latest earthquakes around the world directly on your smartphone.
+          </p>
+          <br />
+          <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
+            Available for Android on the Google Play store.
           </p>
           <div className="mt-10 sm:mt-12">
             <div className="grid grid-cols-3">

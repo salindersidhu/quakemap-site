@@ -1,5 +1,5 @@
-import PropTypes from "prop-types";
 import Image from "next/image";
+import PropTypes from "prop-types";
 
 function FeatureSection({ downloadLink, features }) {
   return (
@@ -29,16 +29,6 @@ function FeatureSection({ downloadLink, features }) {
                     className="mt-4 text-lg text-gray-500"
                     dangerouslySetInnerHTML={{ __html: feature.description }}
                   />
-                  <div className="mt-6">
-                    <a
-                      href={downloadLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex bg-gray-900 bg-origin-border px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
-                    >
-                      Download Now
-                    </a>
-                  </div>
                 </div>
               </div>
             </div>
