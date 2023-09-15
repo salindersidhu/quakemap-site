@@ -5,3 +5,7 @@
 .z-1 {
     z-index: 1;
 }
+
+.hero-section {
+    height: 93vh;
+}
