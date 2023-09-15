@@ -11,8 +11,9 @@ function HeroSection({ downloadLink }) {
             <span className="pb-3 block sm:pb-5">Quakemap</span>
           </h1>
           <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
-            A free realtime global earthquake tracker. Download and view the
-            latest earthquakes around the world directly on your smartphone.
+            Your free real-time global earthquake tracker and news source.
+            Download now to explore the latest earthquakes and stay updated on
+            earthquakes news worldwide, all on your smartphone.
           </p>
           <br />
           <p className="text-base text-gray-300 sm:text-xl lg:text-lg xl:text-xl">
