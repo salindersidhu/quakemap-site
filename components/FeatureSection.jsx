@@ -1,7 +1,7 @@
 import Image from "next/image";
 import PropTypes from "prop-types";
 
-function FeatureSection({ downloadLink, features }) {
+function FeatureSection({ features }) {
   return (
     <div className="relative pt-16 pb-32 overflow-hidden">
       {features.map((feature, index) => (
@@ -56,7 +56,6 @@ function FeatureSection({ downloadLink, features }) {
 }
 
 FeatureSection.propTypes = {
-  downloadLink: PropTypes.string.isRequired,
   features: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 

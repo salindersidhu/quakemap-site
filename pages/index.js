@@ -23,7 +23,7 @@ function Home() {
       </Head>
       <HeaderSection navigation={HeaderNavigation} />
       <HeroSection downloadLink={Links.download} />
-      <FeatureSection downloadLink={Links.download} features={Features} />
+      <FeatureSection features={Features} />
       <ContactSection mailLink={Links.mail} />
       <FooterSection navigation={FooterNavigation} socials={FooterSocials} />
     </>

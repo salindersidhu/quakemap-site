@@ -4,6 +4,7 @@ import {
   GlobeIcon,
   InformationCircleIcon,
   MapIcon,
+  NewspaperIcon,
   SparklesIcon,
 } from "@heroicons/react/outline";
 
@@ -16,14 +17,21 @@ const Features = [
     icon: MapIcon,
   },
   {
-    title: "Experience the globe",
+    title: "Read earthquake news",
+    description:
+      "Quakemap's news page is your go-to source for staying informed and up to date on earthquake events around the world. Powered by Google News, this feature provides you with the latest articles, reports, and updates about earthquakes, ensuring that you have access to real-time information that matters.",
+    image: "app_news.png",
+    icon: NewspaperIcon,
+  },
+  {
+    title: "Navigate the globe",
     description:
       "Quakemap's globe projection takes earthquake visualization to a whole new level. With this feature, you can seamlessly explore earthquakes around the world in a more intuitive and realistic way than ever before. The 3D map makes it easy to see the relationships between earthquakes and the geography of the earth.",
     image: "app_globe.png",
     icon: GlobeIcon,
   },
   {
-    title: "Filter earthquake info",
+    title: "Filter earthquakes",
     description:
       "Quakemap's filtering and sorting give you full control over the earthquake data you see on the map. You can filter earthquakes by type and feed frequency, so you only see the events that are most relevant to you. You can also sort earthquakes in ascending or descending order, for a clearer view of the data that matters most.",
     image: "app_filter.png",
