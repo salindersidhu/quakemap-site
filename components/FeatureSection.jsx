@@ -37,16 +37,14 @@ function FeatureSection({ features }) {
                 index % 2 === 1 ? "lg:col-start-1" : ""
               }`}
             >
-              <div className="lg:px-0 lg:m-0 lg:relative lg:h-full">
-                <Image
-                  src={`/images/${feature.image}`}
-                  alt=""
-                  width={2600}
-                  height={3178}
-                  layout="responsive"
-                  objectFit="cover"
-                />
-              </div>
+              <Image
+                src={`/images/${feature.image}`}
+                alt=""
+                width={2600}
+                height={3178}
+                layout="responsive"
+                objectFit="contain"
+              />
             </div>
           </div>
         </div>
