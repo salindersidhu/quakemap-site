@@ -37,15 +37,15 @@ function HeroSection({ downloadLink }) {
           </div>
         </div>
         <div className="mt-2 lg:mt-0">
-          <div className="lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 sm:pl-6">
+          <div className="lg:px-0 lg:m-0 lg:relative lg:h-full pl-4 pr-4 sm:pl-6 sm:pr-6">
             <Image
               src="/images/app_cover.png"
               alt=""
               className="w-full xl:absolute xl:h-full xl:w-auto xl:max-w-none xl:left-0"
-              width={1459}
-              height={1800}
+              width={2255}
+              height={2979}
               layout="responsive"
-              objectFit="cover"
+              objectFit="contain"
             />
           </div>
         </div>
