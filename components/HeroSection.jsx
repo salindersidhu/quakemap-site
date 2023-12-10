@@ -21,17 +21,19 @@ function HeroSection({ downloadLink }) {
           </p>
           <div className="mt-10 sm:mt-12">
             <div className="grid grid-cols-3">
-              <Link href={downloadLink}>
-                <a target="_blank" rel="noopener noreferrer">
-                  <Image
-                    src="/images/badge_google_play.png"
-                    alt="Get it on Google Play."
-                    width={564}
-                    height={168}
-                    layout="responsive"
-                    objectFit="cover"
-                  />
-                </a>
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={downloadLink}
+              >
+                <Image
+                  src="/images/badge_google_play.png"
+                  alt="Get it on Google Play."
+                  width={564}
+                  height={168}
+                  layout="responsive"
+                  objectFit="cover"
+                />
               </Link>
             </div>
           </div>
