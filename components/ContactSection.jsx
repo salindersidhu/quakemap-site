@@ -1,5 +1,5 @@
+import Image from "next/legacy/image";
 import PropTypes from "prop-types";
-import Image from "next/image";
 
 function ContactSection({ mailLink }) {
   return (
