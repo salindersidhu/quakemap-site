@@ -32,10 +32,11 @@ function NotFound() {
                 </p>
               </div>
               <div className="mt-10 flex space-x-3 sm:border-l sm:border-transparent sm:pl-6">
-                <Link href="/">
-                  <a className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-900 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                    Home
-                  </a>
+                <Link
+                  className="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-gray-900 hover:bg-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                  href="/"
+                >
+                  Home
                 </Link>
               </div>
             </div>
