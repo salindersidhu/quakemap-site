@@ -74,7 +74,6 @@ npm run dev
     ├── public
     │    ├── images                 # Site images
     │    │   └── ...
-    │    ├── app-ads.txt            # AdMob advertisement config
     │    ├── banner.png             # Site SEO banner
     │    ├── favicon.ico            # Site favicon
     │    └── ...
