@@ -5,40 +5,19 @@ function Document() {
     <Html lang="en">
       <Head>
         <meta name="title" content="Quakemap" />
-        <meta
-          name="description"
-          content="Track earthquakes around the world in realtime from the comfort of your smartphone."
-        />
+        <meta name="description" content="Track earthquakes around the world in realtime from the comfort of your smartphone." />
         <meta name="og:site_name" content="Quakemap" />
         <meta name="og:type" content="website" />
-        <meta
-          name="og:url"
-          content="https://salindersidhu.github.io/quakemap"
-        />
+        <meta name="og:url" content="https://quakemap.vercel.app/"/>
         <meta name="og:title" content="Quakemap" />
-        <meta
-          name="og:description"
-          content="Track earthquakes around the world in realtime from the comfort of your smartphone."
-        />
-        <meta
-          name="og:image"
-          content="https://salindersidhu.github.io/quakemap/banner.png"
-        />
+        <meta name="og:description" content="Track earthquakes around the world in realtime from the comfort of your smartphone." />
+        <meta name="og:image" content="/banner.png" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@quakemap" />
-        <meta
-          name="twitter:url"
-          content="https://salindersidhu.github.io/quakemap"
-        />
+        <meta name="twitter:url" content="https://quakemap.vercel.app/"/>
         <meta name="twitter:title" content="Quakemap" />
-        <meta
-          name="twitter:description"
-          content="Track earthquakes around the world in realtime from the comfort of your smartphone."
-        />
-        <meta
-          name="twitter:image"
-          content="https://salindersidhu.github.io/quakemap/banner.png"
-        />
+        <meta name="twitter:description" content="Track earthquakes around the world in realtime from the comfort of your smartphone." />
+        <meta name="twitter:image" content="/banner.png"/>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/>
         <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/>
