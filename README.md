@@ -29,15 +29,6 @@ The offical landing page for [Quakemap](https://play.google.com/store/apps/detai
 npm i
 ```
 
-2. Copy the environment variable files for test, production and development:
-
-```bash
-cp .env.example .env.production
-cp .env.example .env.development
-```
-
-3. Update the variable `SITE_URL` in `.env.*` files.
-
 ## Running
 
 1. Run the development server:
@@ -50,11 +41,9 @@ npm run dev
 
 ## Production Build
 
-1. Update the environment variables in `.env.production`.
+1. Create and merge a Pull Request into the main branch.
 
-2. Create and merge a Pull Request into the main branch.
-
-3. The production site is automatically deployed to [https://quakemap.vercel.app/](https://quakemap.vercel.app/).
+2. The production site is automatically deployed to [https://quakemap.vercel.app/](https://quakemap.vercel.app/).
 
 ## Project Structure
 
