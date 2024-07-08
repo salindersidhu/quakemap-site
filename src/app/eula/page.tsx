@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import { XCircleIcon } from "@heroicons/react/20/solid";
+
+export const metadata: Metadata = {
+  title: "EULA – Quakemap | Realtime Earthquakes",
+};
 
 export default function EULA() {
   return (

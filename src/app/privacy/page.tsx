@@ -1,4 +1,10 @@
+import { Metadata } from "next";
+
 import { CheckCircleIcon } from "@heroicons/react/20/solid";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy – Quakemap | Realtime Earthquakes",
+};
 
 export default function Privacy() {
   return (
