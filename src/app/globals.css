@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.hero-section {
+  min-height: 93vh;
+}
