@@ -30,8 +30,6 @@ export default function Hero({ downloadLink }: { downloadLink: string }) {
                   alt="Get it on Google Play."
                   width={564}
                   height={168}
-                  layout="responsive"
-                  objectFit="cover"
                 />
               </Link>
             </div>
@@ -45,8 +43,7 @@ export default function Hero({ downloadLink }: { downloadLink: string }) {
               className="w-full xl:absolute xl:h-full xl:w-auto xl:max-w-none xl:left-0"
               width={2255}
               height={2979}
-              layout="responsive"
-              objectFit="contain"
+              priority
             />
           </div>
         </div>

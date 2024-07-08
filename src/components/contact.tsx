@@ -7,9 +7,9 @@ export default function Contact({ mailLink }: { mailLink: string }) {
         <Image
           src="/contact_us.png"
           alt=""
-          layout="fill"
-          objectFit="cover"
-          className="w-full h-full object-cover"
+          fill
+          sizes="(max-width: 872px)"
+          className="object-cover"
         />
         <div
           aria-hidden="true"
