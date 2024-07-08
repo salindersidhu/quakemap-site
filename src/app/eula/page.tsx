@@ -176,7 +176,7 @@ export default function EULA() {
               do not make, and there are, no Representations, warranties or
               conditions:
             </p>
-            <ul role="list" className="mt-8  space-y-8 text-gray-600">
+            <ul role="list" className="mt-8 space-y-8 text-gray-600">
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
