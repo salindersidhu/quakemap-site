@@ -1,0 +1,68 @@
+import {
+  CogIcon,
+  FunnelIcon,
+  GlobeAltIcon,
+  InformationCircleIcon,
+  MapIcon,
+  NewspaperIcon,
+  SparklesIcon,
+} from "@heroicons/react/24/outline";
+
+export type Feature = {
+  title: string;
+  description: string;
+  image: string;
+  icon: any;
+};
+
+export const Features: Feature[] = [
+  {
+    title: "Discover Earthquakes",
+    description:
+      "Quakemap provides beautiful, subtle, comprehensive maps designed to show geographic context while highlighting earthquakes. With a scrollable list of earthquake information including magnitude, region, date, and a geographic image, users can easily explore the full range of seismic events.",
+    image: "app_map.png",
+    icon: MapIcon,
+  },
+  {
+    title: "Stay Updated on Earthquakes",
+    description:
+      "Quakemap's news page is your go-to source for staying informed and up to date on earthquake events around the world. Powered by Google News, this feature provides you with the latest articles, reports, and updates about earthquakes, ensuring that you have access to real-time information that matters.",
+    image: "app_news.png",
+    icon: NewspaperIcon,
+  },
+  {
+    title: "Explore Earthquakes in 3D",
+    description:
+      "Quakemap's globe projection takes earthquake visualization to a whole new level. With this feature, you can seamlessly explore earthquakes around the world in a more intuitive and realistic way than ever before. The 3D map makes it easy to see the relationships between earthquakes and the geography of the earth.",
+    image: "app_globe.png",
+    icon: GlobeAltIcon,
+  },
+  {
+    title: "Filter Earthquakes",
+    description:
+      "Quakemap's filtering and sorting give you full control over the earthquake data you see on the map. You can filter earthquakes by type and feed frequency, so you only see the events that are most relevant to you. You can also sort earthquakes in ascending or descending order, for a clearer view of the data that matters most.",
+    image: "app_filter.png",
+    icon: FunnelIcon,
+  },
+  {
+    title: "View Earthquake Details",
+    description:
+      "Quakemap puts accurate, up-to-date earthquake information at your fingertips. With just a few taps, you can view essential earthquake information such as Magnitude or Depth, along with event details like Felt Reports or Alert Level.",
+    image: "app_details.png",
+    icon: SparklesIcon,
+  },
+  {
+    title: "Learn About Earthquakes",
+    description:
+      "Quakemap is more than just an earthquake visualizer - it's a powerful educational tool. Our app offers comprehensive tooltips, courtesy of the <strong>USGS</strong>, that explain earthquake details and terminology in a clear, accessible way. Whether you're a seasoned seismologist or just curious about earthquakes, Quakemap can help you expand your knowledge and deepen your understanding of these powerful natural phenomena.",
+    image: "app_details_help.png",
+    icon: InformationCircleIcon,
+  },
+  {
+    title: "Personalize Your Experience",
+    description:
+      "Quakemap lets you create a personalized earthquake viewing experience. You can adjust the appearance of the map and toggle specific geographic features, such as plate boundaries and animated earthquake markers, to suit your needs. Plus, our app offers both light and dark themes for the user interface, so you can choose the look that works best for you.",
+    image: "app_settings.png",
+    icon: CogIcon,
+  },
+];
