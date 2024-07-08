@@ -1,4 +1,4 @@
-import type { HeaderLink } from "@/data/headerLinks";
+import type { NavigationLink } from "@/data/navigationLinks";
 
 import { Fragment } from "react";
 import Image from "next/legacy/image";
@@ -11,7 +11,7 @@ import {
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
-export default function Header({ links }: { links: HeaderLink[] }) {
+export default function Header({ links }: { links: NavigationLink[] }) {
   return (
     <Popover as="header" className="relative">
       <div className="bg-gray-900 py-6">
