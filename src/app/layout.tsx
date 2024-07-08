@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 
-import Header from "@/components/header";
+import Contact from "@/components/contact";
 import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 import { NavigationLinks } from "@/data/navigationLinks";
 import { SocialLinks } from "@/data/socialLinks";
+import { GeneralLinks } from "@/data/generalLinks";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +33,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <Header links={NavigationLinks} />
         {children}
+        <Contact mailLink={GeneralLinks.mail} />
         <Footer links={NavigationLinks} socials={SocialLinks} />
       </body>
     </html>
