@@ -8,7 +8,7 @@ The offical landing page for [Quakemap](https://play.google.com/store/apps/detai
 
 <p float="left">
     <img src="https://images.squarespace-cdn.com/content/v1/5cc22d6593a63233d214110c/1597710652025-QEY2UL92MLE1E2BX4WSJ/Vercel+%28Zeit%29.jpg" height="150" width="150">
-    <img src="https://seeklogo.com/images/N/next-js-logo-8FCFF51DD2-seeklogo.com.png" height="150" width="150">
+    <img src="https://miro.medium.com/v2/resize:fit:1258/1*okiCUvTUJLtOqJv1dMzwpA.png" height="150" width="150">
     <img src="https://user-images.githubusercontent.com/98990/89711240-4172a200-d989-11ea-8d51-4aaf922fa407.png" height="150" width="150">
     <img src="https://miro.medium.com/max/400/1*mrOXGyIa3BlPK80peLmEbA.png" height="150" width="150">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1024px-Unofficial_JavaScript_logo_2.svg.png" height="150" width="150">
@@ -29,15 +29,6 @@ The offical landing page for [Quakemap](https://play.google.com/store/apps/detai
 npm i
 ```
 
-2. Copy the environment variable files for test, production and development:
-
-```bash
-cp .env.example .env.production
-cp .env.example .env.development
-```
-
-3. Update the variable `SITE_URL` in `.env.*` files.
-
 ## Running
 
 1. Run the development server:
@@ -50,37 +41,36 @@ npm run dev
 
 ## Production Build
 
-1. Update the environment variables in `.env.production`.
+1. Create and merge a Pull Request into the main branch.
 
-2. Create and merge a Pull Request into the main branch.
-
-3. The production site is automatically deployed to [https://quakemap.vercel.app/](https://quakemap.vercel.app/).
+2. The production site is automatically deployed to [https://quakemap.vercel.app/](https://quakemap.vercel.app/).
 
 ## Project Structure
 
     .
     ├── ...
-    ├── components                  # Site components
-    │    ├── index.js
+    ├── src
+    │    ├── app
+    │    │    ├── eula
+    │    │    │    ├── page.tsx     # Eula page
+    │    │    │    └── ...
+    │    │    ├── faq
+    │    │    │    ├── page.tsx     # FAQ page
+    │    │    │    └── ...
+    │    │    ├── privacy
+    │    │    │    ├── page.tsx     # Privacy Policy page
+    │    │    │    └── ...
+    │    │    ├── page.tsx          # Home page
+    │    │    ├── favicon.ico       # Site favicon
+    │    │    ├── globals.css       # Global styles
+    │    │    └── ...
+    │    ├── components             # Site components
+    │    │    └── ...
+    │    └── data                   # Site content
+    │         └── ...
+    ├── public                      # Site images
     │    └── ...
-    ├── data                        # Site content
-    │    ├── index.js
-    │    └── ...
-    ├── pages                       # Site pages
-    │    ├── _app.js                # Next JS app entry point
-    │    ├── _document.js           # Next JS SEO compatible site wrapper
-    │    ├── index.js               # Main page
-    │    └── ...
-    ├── public
-    │    ├── images                 # Site images
-    │    │   └── ...
-    │    ├── banner.png             # Site SEO banner
-    │    ├── favicon.ico            # Site favicon
-    │    └── ...
-    ├── styles                      # Site Styles
-    │    ├── globals.css            # Global styles
-    │    └── ...
-    ├── next.config.js              # Next JS config
-    ├── postcss.config.js           # Post CSS config
-    ├── tailwind.config.js          # Tailwind config
+    ├── next.config.ts              # Next config
+    ├── postcss.config.mjs          # Post CSS config
+    ├── tailwind.config.ts          # Tailwind config
     └── ...
