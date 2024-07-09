@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     "Track earthquakes around the world in realtime from the comfort of your smartphone.",
   openGraph: {
     siteName: "Quakemap",
-    title: "Quakemap",
+    title: "Quakemap | Realtime Earthquakes",
     type: "website",
   },
 };
