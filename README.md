@@ -49,27 +49,28 @@ npm run dev
 
     .
     ├── ...
-    ├── components                  # Site components
-    │    ├── index.js
+    ├── src
+    │    ├── app
+    │    │    ├── eula
+    │    │    │    ├── page.tsx     # Eula page
+    │    │    │    └── ...
+    │    │    ├── faq
+    │    │    │    ├── page.tsx     # FAQ page
+    │    │    │    └── ...
+    │    │    ├── privacy
+    │    │    │    ├── page.tsx     # Privacy Policy page
+    │    │    │    └── ...
+    │    │    ├── page.tsx          # Home page
+    │    │    ├── favicon.ico       # Site favicon
+    │    │    ├── globals.css       # Global styles
+    │    │    └── ...
+    │    ├── components             # Site components
+    │    │    └── ...
+    │    └── data                   # Site content
+    │         └── ...
+    ├── public                      # Site images
     │    └── ...
-    ├── data                        # Site content
-    │    ├── index.js
-    │    └── ...
-    ├── pages                       # Site pages
-    │    ├── _app.js                # Next JS app entry point
-    │    ├── _document.js           # Next JS SEO compatible site wrapper
-    │    ├── index.js               # Main page
-    │    └── ...
-    ├── public
-    │    ├── images                 # Site images
-    │    │   └── ...
-    │    ├── banner.png             # Site SEO banner
-    │    ├── favicon.ico            # Site favicon
-    │    └── ...
-    ├── styles                      # Site Styles
-    │    ├── globals.css            # Global styles
-    │    └── ...
-    ├── next.config.js              # Next JS config
-    ├── postcss.config.js           # Post CSS config
-    ├── tailwind.config.js          # Tailwind config
+    ├── next.config.ts              # Next config
+    ├── postcss.config.mjs          # Post CSS config
+    ├── tailwind.config.ts          # Tailwind config
     └── ...
