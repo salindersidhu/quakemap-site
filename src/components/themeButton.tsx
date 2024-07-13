@@ -13,7 +13,7 @@ export function ThemeButton({
     <button
       type="button"
       onClick={onClick}
-      className="relative rounded-full bg-gray-200 dark:bg-gray-900 p-1 text-gray-950 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
+      className="relative rounded-full bg-gray-200 dark:bg-zinc-900 p-1 text-gray-950 dark:text-gray-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
     >
       <span className="absolute -inset-1.5" />
       <span className="sr-only">Toggle {isDark ? "light" : "dark"} mode</span>

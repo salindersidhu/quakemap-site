@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contact({ mailLink }: { mailLink: string }) {
   return (
-    <div className="relative bg-gray-200 dark:bg-gray-900">
+    <div className="relative bg-gray-200 dark:bg-zinc-900">
       <div className="relative h-56 bg-indigo-600 sm:h-72 md:absolute md:left-0 md:h-full md:w-1/2">
         <Image
           src="/contact_us.png"
