@@ -12,7 +12,7 @@ import ThemeSwitch from "./themeSwitch";
 
 export default function Header({ links }: { links: NavigationLink[] }) {
   return (
-    <Disclosure as="nav" className="bg-gray-100 dark:bg-gray-900">
+    <Disclosure as="nav" className="bg-gray-200 dark:bg-gray-900">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -49,7 +49,7 @@ export default function Header({ links }: { links: NavigationLink[] }) {
                   <Link
                     key={item.name}
                     href={item.href}
-                    className="text-base text-gray-950 dark:text-gray-200 hover:bg-white dark:hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium"
+                    className="text-base text-gray-950 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-md px-3 py-2 text-sm font-medium"
                   >
                     {item.name}
                   </Link>
@@ -70,7 +70,7 @@ export default function Header({ links }: { links: NavigationLink[] }) {
               key={item.name}
               as={Link}
               href={item.href}
-              className="text-gray-950 dark:text-gray-200  hover:bg-white dark:hover:bg-gray-700 block rounded-md px-3 py-2 text-base font-medium"
+              className="text-gray-950 dark:text-gray-200  hover:bg-gray-50 dark:hover:bg-gray-700 block rounded-md px-3 py-2 text-base font-medium"
             >
               {item.name}
             </DisclosureButton>
