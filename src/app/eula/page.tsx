@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 export default function EULA() {
   return (
     <main>
-      <div className="bg-white px-6 py-32 lg:px-8">
+      <div className="bg-white dark:bg-zinc-950 px-6 py-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-          <h1 className="mt-2 text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h1 className="mt-2 text-center font-bold tracking-tight text-gray-900 dark:text-gray-50 text-2xl sm:text-4xl">
             End-User License Agreement
           </h1>
-          <div className="mt-10">
+          <div className="mt-10 text-gray-900 dark:text-gray-50">
             <p>
               This End-User License Agreement (&quot;EULA&quot;) is a legal
               agreement between you and Quakemap;
@@ -55,7 +55,7 @@ export default function EULA() {
               services for the Software, unless other terms accompany those
               items on delivery. If so, those terms apply.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               License Grant
             </h2>
             <p className="mt-6">
@@ -72,11 +72,11 @@ export default function EULA() {
             <p className="mt-6">
               You are <strong>not</strong> permitted to:
             </p>
-            <ul role="list" className="mt-8  space-y-8 text-gray-600">
+            <ul role="list" className="mt-8 space-y-8">
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Edit, alter, modify, adapt, translate or otherwise change the
@@ -90,7 +90,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Reproduce, copy, distribute, resell or otherwise use the
@@ -100,7 +100,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Allow any third party to use the Software on behalf of or for
@@ -110,7 +110,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Use the Software in any way which breaches any applicable
@@ -120,7 +120,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Use the Software for any purpose that Quakemap considers is a
@@ -128,7 +128,7 @@ export default function EULA() {
                 </span>
               </li>
             </ul>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Intellectual Property and Ownership
             </h2>
             <p className="mt-6">
@@ -143,7 +143,7 @@ export default function EULA() {
               Quakemap reserves the right to grant licences to use the Software
               to third parties.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Termination
             </h2>
             <p className="mt-6">
@@ -159,7 +159,7 @@ export default function EULA() {
               that by their nature continue and survive will survive any
               termination of this EULA agreement.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Disclaimer
             </h2>
             <p className="mt-6">
@@ -182,11 +182,11 @@ export default function EULA() {
               do not make, and there are, no Representations, warranties or
               conditions:
             </p>
-            <ul role="list" className="mt-8 space-y-8 text-gray-600">
+            <ul role="list" className="mt-8 space-y-8">
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Your access or use of or the inability to access or use the
@@ -198,7 +198,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Any third party claims that the access or use by you of the
@@ -210,7 +210,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Any failure of performance of the Quakemap software, the
@@ -223,7 +223,7 @@ export default function EULA() {
               <li className="flex gap-x-3">
                 <XCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>
                   Any other matters relating to the Quakemap software, the
@@ -237,8 +237,8 @@ export default function EULA() {
               that the risk of Injury from the foregoing rests entirely with
               you.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
-              Indemnity and Discharg
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
+              Indemnity and Discharge
             </h2>
             <p className="mt-6">
               You agree to indemnify and hold harmless Us, Our affiliates and
@@ -253,7 +253,7 @@ export default function EULA() {
               assist and co-operate as fully as reasonably required by the
               foregoing parties in the defense of any such claim and demand.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Governing Law
             </h2>
             <p className="mt-6">
@@ -261,7 +261,7 @@ export default function EULA() {
               connection with this EULA agreement, shall be governed by and
               construed in accordance with the laws of Canada.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Contact Us
             </h2>
             <p className="mt-6">

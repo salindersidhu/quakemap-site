@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
+
 import { Inter } from "next/font/google";
+
 import "./globals.css";
+import { Providers } from "./providers";
 
 import Contact from "@/components/contact";
 import Footer from "@/components/footer";
@@ -29,12 +32,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <Header links={NavigationLinks} />
-        {children}
-        <Contact mailLink={GeneralLinks.mail} />
-        <Footer links={NavigationLinks} socials={SocialLinks} />
+        <Providers>
+          <Header links={NavigationLinks} />
+          {children}
+          <Contact mailLink={GeneralLinks.mail} />
+          <Footer links={NavigationLinks} socials={SocialLinks} />
+        </Providers>
       </body>
     </html>
   );

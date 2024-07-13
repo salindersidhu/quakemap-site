@@ -1,5 +1,5 @@
 import {
-  CogIcon,
+  Cog6ToothIcon,
   FunnelIcon,
   GlobeAltIcon,
   InformationCircleIcon,
@@ -63,6 +63,6 @@ export const Features: Feature[] = [
     description:
       "Quakemap lets you create a personalized earthquake viewing experience. You can adjust the appearance of the map and toggle specific geographic features, such as plate boundaries and animated earthquake markers, to suit your needs. Plus, our app offers both light and dark themes for the user interface, so you can choose the look that works best for you.",
     image: "app_settings.png",
-    icon: CogIcon,
+    icon: Cog6ToothIcon,
   },
 ];

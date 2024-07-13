@@ -9,12 +9,12 @@ export const metadata: Metadata = {
 export default function Privacy() {
   return (
     <main>
-      <div className="bg-white px-6 py-32 lg:px-8">
+      <div className="bg-white dark:bg-zinc-950 px-6 py-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
-          <h1 className="mt-2 text-center font-bold tracking-tight text-gray-900 sm:text-4xl">
+          <h1 className="mt-2 text-center font-bold tracking-tight text-gray-900 dark:text-gray-50 text-2xl sm:text-4xl">
             Privacy Policy
           </h1>
-          <div className="mt-10">
+          <div className="mt-10 text-gray-900 dark:text-gray-50">
             <p>
               We have built Quakemap as an ad supported app. This SERVICE is
               provided by Quakemap software at no cost and is intended for use
@@ -37,7 +37,7 @@ export default function Privacy() {
               our End-User License Agreement, which are accessible at Quakemap
               unless otherwise defined in this Privacy Policy.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Information Collection and Use
             </h2>
             <p className="mt-6">
@@ -54,17 +54,17 @@ export default function Privacy() {
               Link to the privacy policy of third-party service providers used
               by the app:
             </p>
-            <ul role="list" className="mt-8 space-y-8 text-gray-600">
+            <ul role="list" className="mt-8 space-y-8">
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://www.google.com/policies/privacy/"
-                  className="text-base font-semibold leading-7 text-indigo-600"
+                  className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-300"
                 >
                   Google Play Services <span aria-hidden="true">&rarr;</span>
                 </a>
@@ -72,13 +72,13 @@ export default function Privacy() {
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://support.google.com/admob/answer/6128543?hl=en"
-                  className="text-base font-semibold leading-7 text-indigo-600"
+                  className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-300"
                 >
                   AdMob <span aria-hidden="true">&rarr;</span>
                 </a>
@@ -86,13 +86,13 @@ export default function Privacy() {
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://firebase.google.com/policies/analytics"
-                  className="text-base font-semibold leading-7 text-indigo-600"
+                  className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-300"
                 >
                   Google Analytics for Firebase{" "}
                   <span aria-hidden="true">&rarr;</span>
@@ -101,19 +101,19 @@ export default function Privacy() {
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://firebase.google.com/support/privacy/"
-                  className="text-base font-semibold leading-7 text-indigo-600"
+                  className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-300"
                 >
                   Firebase Crashlytics <span aria-hidden="true">&rarr;</span>
                 </a>
               </li>
             </ul>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Log Data
             </h2>
             <p className="mt-6">
@@ -125,7 +125,7 @@ export default function Privacy() {
               the configuration of the app when utilizing our Service, the time
               and date of your use of the Service, and other statistics.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Cookies
             </h2>
             <p className="mt-6">
@@ -143,39 +143,39 @@ export default function Privacy() {
               you choose to refuse our cookies, you may not be able to use some
               portions of this Service.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Service Providers
             </h2>
             <p className="mt-6">
               We may employ third-party companies and individuals due to the
               following reasons:
             </p>
-            <ul role="list" className="mt-8 space-y-8 text-gray-600">
+            <ul role="list" className="mt-8 space-y-8">
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>To facilitate our Service;</span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>To provide the Service on our behalf;</span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>To perform Service-related services; or</span>
               </li>
               <li className="flex gap-x-3">
                 <CheckCircleIcon
                   aria-hidden="true"
-                  className="mt-1 h-5 w-5 flex-none text-black"
+                  className="mt-1 h-5 w-5 flex-none text-black dark:text-white"
                 />
                 <span>To assist us in analyzing how our Service is used.</span>
               </li>
@@ -187,7 +187,7 @@ export default function Privacy() {
               are obligated not to disclose or use the information for any other
               purpose.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Security
             </h2>
             <p className="mt-6">
@@ -197,7 +197,7 @@ export default function Privacy() {
               the internet, or method of electronic storage is 100% secure and
               reliable, and we cannot guarantee its absolute security.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Links to Other Sites
             </h2>
             <p className="mt-6">
@@ -209,7 +209,7 @@ export default function Privacy() {
               the content, privacy policies, or practices of any third-party
               sites or services.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Children&apos;s Privacy
             </h2>
             <p className="mt-6">
@@ -222,7 +222,7 @@ export default function Privacy() {
               personal information, please contact us so that we will be able to
               perform the necessary actions.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Changes to This Privacy Policy
             </h2>
             <p className="mt-6">
@@ -234,7 +234,7 @@ export default function Privacy() {
             <p className="mt-6">
               This policy is effective as of <strong>2022-03-01</strong>.
             </p>
-            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">
+            <h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900 dark:text-gray-50">
               Contact Us
             </h2>
             <p className="mt-6">
