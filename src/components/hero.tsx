@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Hero({ downloadLink }: { downloadLink: string }) {
+export default function Hero() {
   return (
     <div className="bg-gray-200 dark:bg-zinc-900 lg:pb-20 pb-16 lg:pt-2 overflow-hidden md:grid md:place-items-center hero-section">
       <div className="lg:mx-auto lg:max-w-7xl lg:px-8 lg:grid lg:grid-cols-2 lg:grid-flow-col-dense lg:gap-24 lg:mt-0">
@@ -25,7 +25,7 @@ export default function Hero({ downloadLink }: { downloadLink: string }) {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href={downloadLink}
+                href="https://play.google.com/store/apps/details?id=com.sal.quakemap"
               >
                 <Image
                   src="/badge_google_play.png"
