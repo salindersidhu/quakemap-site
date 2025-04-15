@@ -61,14 +61,14 @@ npm run dev
     │    │    │    ├── page.tsx     # Privacy Policy page
     │    │    │    └── ...
     │    │    ├── page.tsx          # Home page
-    │    │    ├── favicon.ico       # Site favicon
-    │    │    ├── globals.css       # Global styles
+    │    │    ├── favicon.ico
+    │    │    ├── globals.css
     │    │    └── ...
-    │    ├── components             # Site components
+    │    ├── components             # Components
     │    │    └── ...
-    │    └── data                   # Site content
+    │    └── data                   # Content
     │         └── ...
-    ├── public                      # Site images
+    ├── public                      # Images
     │    └── ...
     ├── next.config.ts              # Next config
     ├── postcss.config.mjs          # Post CSS config
