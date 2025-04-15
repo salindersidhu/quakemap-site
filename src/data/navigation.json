@@ -1,0 +1,14 @@
+[
+  {
+    "name": "FAQ",
+    "link": "/faq"
+  },
+  {
+    "name": "EULA",
+    "link": "/eula"
+  },
+  {
+    "name": "Privacy",
+    "link": "/privacy"
+  }
+]

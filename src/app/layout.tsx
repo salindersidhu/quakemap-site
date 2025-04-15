@@ -9,10 +9,6 @@ import Contact from "@/components/contact";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 
-import { NavigationLinks } from "@/data/navigationLinks";
-import { SocialLinks } from "@/data/socialLinks";
-import { GeneralLinks } from "@/data/generalLinks";
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -35,10 +31,10 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
         <Providers>
-          <Header links={NavigationLinks} />
+          <Header />
           {children}
-          <Contact mailLink={GeneralLinks.mail} />
-          <Footer links={NavigationLinks} socials={SocialLinks} />
+          <Contact />
+          <Footer />
         </Providers>
       </body>
     </html>

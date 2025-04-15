@@ -1,5 +1,3 @@
-import type { NavigationLink } from "@/data/navigationLinks";
-
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -8,9 +6,11 @@ import {
   DisclosurePanel,
 } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import ThemeSwitch from "./themeSwitch";
 
-export default function Header({ links }: { links: NavigationLink[] }) {
+import ThemeSwitch from "@/components/themeSwitch";
+import navigation from "@/data/navigation.json";
+
+export default function Header() {
   return (
     <Disclosure as="nav" className="bg-gray-200 dark:bg-zinc-900">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -45,10 +45,10 @@ export default function Header({ links }: { links: NavigationLink[] }) {
             </div>
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                {links.map((item) => (
+                {navigation.map((item) => (
                   <Link
                     key={item.name}
-                    href={item.href}
+                    href={item.link}
                     className="text-base text-gray-950 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-zinc-700 rounded-md px-3 py-2 text-sm font-medium"
                   >
                     {item.name}
@@ -65,11 +65,11 @@ export default function Header({ links }: { links: NavigationLink[] }) {
 
       <DisclosurePanel className="sm:hidden">
         <div className="space-y-1 px-2 pb-3 pt-2">
-          {links.map((item) => (
+          {navigation.map((item) => (
             <DisclosureButton
               key={item.name}
               as={Link}
-              href={item.href}
+              href={item.link}
               className="text-gray-950 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-zinc-700 block rounded-md px-3 py-2 text-base font-medium"
             >
               {item.name}
