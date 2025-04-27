@@ -7,7 +7,7 @@
   },
   {
     "title": "Stay Updated on Earthquakes",
-    "description": "Quakemap's news page is your go-to source for staying informed and up to date on earthquake events around the world. Powered by Google News, this feature provides you with the latest articles, reports, and updates about earthquakes, ensuring that you have access to real-time information that matters.",
+    "description": "Quakemap's news page is your go-to source for staying informed and up to date on earthquake events around the world. Powered by Google News, this feature provides you with the latest articles, reports, and updates about earthquakes, ensuring that you have access to real-time information that matters. You can also search for earthquake news by keyword and view your recent search history for quick access.",
     "image": "app_news.png",
     "icon": "NewspaperIcon"
   },
