@@ -26,5 +26,9 @@
   {
     "question": "How accurate is the earthquake information?",
     "answer": "Quakemap uses data from the U.S. Geological Survey, which is a reliable and authoritative source for earthquake information."
+  },
+  {
+    "question": "Can I contribute to Quakemap?",
+    "answer": "Quakemap is not an open-source project, however, we appreciate feedback and feature suggestions from our users."
   }
 ]
