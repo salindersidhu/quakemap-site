@@ -41,7 +41,8 @@ export default function Footer() {
           })}
         </div>
         <p className="text-base mt-8 text-center text-gray-950 dark:text-gray-200">
-          &copy; {new Date().getFullYear()} Salinder Sidhu. All rights reserved.{" "}
+          &copy; {new Date().getFullYear()} Salinder Sidhu. All rights
+          reserved.{" "}
         </p>
       </div>
     </footer>
