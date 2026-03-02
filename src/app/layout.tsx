@@ -13,6 +13,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Quakemap | Realtime Earthquakes",
+  metadataBase: new URL("https://quakemap.vercel.app/"),
   description:
     "Track earthquakes around the world in realtime from the comfort of your smartphone.",
   openGraph: {
@@ -24,9 +25,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
