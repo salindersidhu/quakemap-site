@@ -3,3 +3,5 @@
 .hero-section {
   min-height: 95vh;
 }
+
+@custom-variant dark (&:where(.dark, .dark *));
